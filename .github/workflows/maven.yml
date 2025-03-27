@@ -32,7 +32,7 @@ jobs:
     - name : list
       run : ls -la
     - name : cd scr main
-      run : cd src/main/java
+      run : cd src
     - name : list
       run : ls -la
     - name : compile the code
