@@ -29,10 +29,10 @@ jobs:
         cache: maven
     - name : change directory
       run : cd /home/runner/work/suduku/suduku/src/main/java/sudoku
-    -name : list
-      run : ls -la
+    - name : list
+      run : la -la
     - name : compile the code
-    run : javac SloveSudoku.java
+      run : javac SloveSudoku.java
     
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
