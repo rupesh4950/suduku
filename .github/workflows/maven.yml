@@ -30,7 +30,9 @@ jobs:
     - name : change directory
       run : cd /home/runner/work/suduku/suduku/src/main/java/sudoku
     - name : list
-      run : ls -la
+    - run : ls -la
+    - name : chmod 
+      run : chmod 777 *
     - name : cd scr main
       run : cd src
     - name : list
