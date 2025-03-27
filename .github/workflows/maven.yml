@@ -30,7 +30,7 @@ jobs:
     - name : change directory
       run : cd /home/runner/work/suduku/suduku/src/main/java/sudoku
     - name : list
-      run : la -la
+      run : ls -la
     - name : compile the code
       run : javac SloveSudoku.java
     
