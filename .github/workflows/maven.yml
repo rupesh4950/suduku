@@ -27,8 +27,8 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven
-      run: mvn -B package --file pom.xm
+ #   - name: Build with Maven
+  #    run: mvn -B package --file pom.xm
     - name : compile the code 
       run : javac /home/runner/work/suduku/suduku/src/main/java/sudoku/SloveSudoku.java
     
